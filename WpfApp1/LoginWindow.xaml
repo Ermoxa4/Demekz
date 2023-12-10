@@ -1,0 +1,14 @@
+﻿<Window x:Class="YourNamespace.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Вход" Height="300" Width="400">
+    <Grid>
+        <Label Content="Логин:" Margin="50,80,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="usernameTextBox" Margin="120,80,50,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200"/>
+
+        <Label Content="Пароль:" Margin="50,120,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordBox" Margin="120,120,50,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200"/>
+
+        <Button x:Name="loginButton" Content="Войти" Margin="50,180,50,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="LoginButton_Click"/>
+    </Grid>
+</Window>
